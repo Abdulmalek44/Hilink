@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Button from "./Button";
 
 const Hero = () => {
@@ -7,7 +6,7 @@ const Hero = () => {
       <div className="hero-map" />
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-        <Image
+        <img
           src="/camp.svg"
           alt="camp"
           width={50}
@@ -26,7 +25,7 @@ const Hero = () => {
             {Array(5)
               .fill(1)
               .map((_, index) => (
-                <Image
+                <img
                   src="/star.svg"
                   key={index}
                   alt="star"
@@ -60,7 +59,7 @@ const Hero = () => {
           <div className="flex flex-col">
             <div className="flexBetween">
               <p className="regular-16 text-gray-20">Location</p>
-              <Image src="/close.svg" alt="close" width={24} height={24} />
+              <img src="/close.svg" alt="close" width={24} height={24} />
             </div>
             <p className="bold-20 text-white">Aguas Calientes</p>
           </div>
