@@ -1,6 +1,7 @@
 import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
+import hilink from "../public/hilink-logo.svg";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
             <Image
-              src="hilink-logo.svg"
+              src={hilink}
               alt="logo"
               width={74}
               height={29}
@@ -50,8 +51,8 @@ const Footer = () => {
             <div className="flex flex-col gap-5">
               <FooterColumn title={SOCIALS.title}>
                 <ul className="regular-14 flex gap-4 text-gray-30">
-                  {SOCIALS.links.map((link) => (
-                    <Link href="/" key={link}>
+                  {SOCIALS.links.map((link, index) => (
+                    <Link href="/" key={index}>
                       <Image
                         src={link}
                         alt="logo"

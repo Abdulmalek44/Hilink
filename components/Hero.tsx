@@ -2,7 +2,8 @@ import Image from "next/image";
 import Button from "./Button";
 import camp from "../public/camp.svg";
 import star from "../public/star.svg";
-import play from "../public/camp.svg";
+import play from "../public/play.svg";
+import close from "../public/close.svg";
 
 const Hero = () => {
   return (
@@ -63,7 +64,7 @@ const Hero = () => {
           <div className="flex flex-col">
             <div className="flexBetween">
               <p className="regular-16 text-gray-20">Location</p>
-              <Image src="/close.svg" alt="close" width={24} height={24} />
+              <Image src={close} alt="close" width={24} height={24} />
             </div>
             <p className="bold-20 text-white">Aguas Calientes</p>
           </div>

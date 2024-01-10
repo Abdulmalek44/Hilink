@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { CampSite } from ".";
+import quote from "../public/quote.svg";
 
 const Camp = () => {
   return (
@@ -31,7 +32,7 @@ const Camp = () => {
             adventure
           </p>
           <Image
-            src="/quote.svg"
+            src={quote}
             alt="camp-2"
             width={186}
             height={219}

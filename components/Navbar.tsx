@@ -2,12 +2,14 @@ import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from ".";
+import hilink from "../public/hilink-logo.svg";
+import menu from "../public/menu.svg";
 
 const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
+        <Image src={hilink} alt="logo" width={74} height={29} />
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">
@@ -32,7 +34,7 @@ const Navbar = () => {
       </div>
 
       <Image
-        src="menu.svg"
+        src={menu}
         alt="menu"
         width={32}
         height={32}
