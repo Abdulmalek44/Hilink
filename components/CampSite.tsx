@@ -1,9 +1,9 @@
 import { PEOPLE_URL } from "@/constants";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import folded from "../public/folded-map.svg";
 
 interface CampProps {
-  backgroundImage: string;
+  backgroundImage: StaticImageData;
   title: string;
   subtitle: string;
   peopleJoined: string;
@@ -17,7 +17,8 @@ const CampSite = ({
 }: CampProps) => {
   return (
     <div
-      className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
+      className={`h-full w-full min-w-[1100px] bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
+      style={{ backgroundImage: `url('${backgroundImage.src}')` }}
     >
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">

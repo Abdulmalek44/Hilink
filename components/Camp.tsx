@@ -1,19 +1,21 @@
 import Image from "next/image";
 import { CampSite } from ".";
 import quote from "../public/quote.svg";
+import img1 from "../public/img-1.png";
+import img2 from "../public/img-2.png";
 
 const Camp = () => {
   return (
     <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite
-          backgroundImage="bg-bg-img-1"
+          backgroundImage={img1}
           title="Putuk Truno Camp"
           subtitle="Prigen, Pasuruan"
           peopleJoined="50+ Joined"
         />
         <CampSite
-          backgroundImage="bg-bg-img-2"
+          backgroundImage={img2}
           title="Mountain View Camp"
           subtitle="Somewhere in the Wilderness"
           peopleJoined="50+ Joined"

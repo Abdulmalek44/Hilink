@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Button } from ".";
 import hilink from "../public/hilink-logo.svg";
 import menu from "../public/menu.svg";
+import user from "../public/user.svg";
 
 const Navbar = () => {
   return (
@@ -28,7 +29,7 @@ const Navbar = () => {
         <Button
           type="button"
           title="Login"
-          icon="/user.svg"
+          icon={user}
           variant="btn_dark_green"
         />
       </div>
