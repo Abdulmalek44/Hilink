@@ -1,6 +1,8 @@
 import Button from "./Button";
 import Image from "next/image";
 import phones from "../public/phones.png";
+import android from "../public/android.svg";
+import apple from "../public/apple.svg";
 
 const GetApp = () => {
   return (
@@ -17,14 +19,14 @@ const GetApp = () => {
             <Button
               type="button"
               title="App Store"
-              icon="/apple.svg"
+              icon={apple}
               variant="btn_white"
               full
             />
             <Button
               type="button"
               title="Play Store"
-              icon="/android.svg"
+              icon={android}
               variant="btn_dark_green_outline"
               full
             />
