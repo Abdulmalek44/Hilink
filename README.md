@@ -1,6 +1,6 @@
 # `Hilink`
 
-This is an travel website built with Next.js (React framework), TypeScript. where we accompany you on journeys to discover the untamed beauty of nature. Whether you're a seasoned explorer or just starting your adventure, our app is here to guide you every step of the way.
+This is an travel website built with Next.js (React framework), TypeScript. your gateway to exploring the unspoiled beauty of nature. This static website is designed to inspire and guide you on your outdoor adventures, all on a single, seamless page.
 
 ### Features:
 - Explore destinations and view detailed information
