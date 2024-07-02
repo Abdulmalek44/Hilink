@@ -1,25 +1,16 @@
-# `Apple Store`
+# `Hilink`
 
-This is an Apple Store website built with React, Vite, TypeScript, Redux Toolkit, and Tailwind CSS. The website allows users to browse and purchase products from a wide selection, and includes authentication for secure login and registration, a profile page for viewing and updating personal information, a cart system for managing items, and a checkout page for completing orders. The backend is powered by Commerce JS.
+This is an travel website built with Next.js (React framework), TypeScript. where we accompany you on journeys to discover the untamed beauty of nature. Whether you're a seasoned explorer or just starting your adventure, our app is here to guide you every step of the way.
 
-### `Features`:
-- Display the latest collection of products on the Home Page
-- Browse products by categories filter
-- User authentication with a secure login and register system
-- Add, view, update, and manage items in the cart
-- Proceed to checkout and complete the order
-- View and update personal information in the user profile
+### Features:
+- Explore destinations and view detailed information
+- Discover recommended accommodations and activities
 - Responsive design for optimal viewing experience on different devices
 
-### `Technologies Used`: 
-- React.js: JavaScript library for building user interfaces
+### Technologies Used:
+- Next.js: React framework for building server-side rendered and static web applications
 - TypeScript: A strongly typed programming language that builds on JavaScript
-- Redux Toolkit: A toolset for efficient Redux developmentt
 - Tailwind CSS: Utility-first CSS framework for styling
-- Vite-plugin-svgr:  SVGR integrates with Vite for transforming SVGs into React components
-- React-hook-form: Performant, flexible, and extensible forms with easy-to-use validation
-- Lottie-react: A library for rendering Lottie animations in React
-- Commerce JS: Backend services for the application.
 
 Project Link: [Hilink](https://abdulmalek44.github.io/Hilink)
 
